@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .caixa-video{
@@ -68,6 +69,64 @@ section{
     color: white;
     border-bottom: 0.1rem solid white;
     padding-bottom:  0.5rem;
+    transition: 0.4s linear;
     
 }
 
+.caixa-img2{
+    padding-top: 20rem;
+    padding-left: 20rem;
+    display: flex;
+    margin: auto;
+  
+}
+.caixa-img2 > img {
+    position: flex;
+    width: 50vw;
+    border-radius: 40px;
+    justify-content: left;
+}
+
+.caixa-principal{
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.caixa-principal div{
+    max-width: 60rem;
+}
+
+.caixa-principal div h3{
+    color: #ffffff;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.caixa-principal div > p{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding: 2rem 0;
+    line-height: 1.8;
+
+    }
+
+    .caixa-principal > div > a{
+        display: inline-block;
+        background-color: #DAA520;
+        cursor: pointer;
+        margin-top: 2rem;
+        font-size: 1.7rem;
+        color: #ffffff;
+        padding: 1rem 3rem;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+
+    .caixa-principal > div > a:hover{
+        background-color: #ff8800;
+        transition: 0.5s;
+        box-shadow: 0px 0px 3px 3px #ff8800;
+    }
